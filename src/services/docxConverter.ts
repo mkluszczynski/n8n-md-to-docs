@@ -4,14 +4,13 @@ import {
   TextRun,
   HeadingLevel,
   Packer,
-  AlignmentType,
   Table,
   TableRow,
   TableCell,
   BorderStyle,
 } from "docx";
 import { marked } from "marked";
-import type { Token, Tokens } from "marked";
+import type { Tokens } from "marked";
 
 // Simple logger for standalone deployment
 const logger = {
